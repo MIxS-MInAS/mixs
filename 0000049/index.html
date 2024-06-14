@@ -384,7 +384,7 @@
 
 
 <h1 id="term-pcr-conditions-pcr_cond">Term: pcr conditions (pcr_cond)</h1>
-<p><em>Description of reaction conditions and components of PCR in the form of 'initial denaturation:94degC_1.5min; annealing=...'</em></p>
+<p><em>Description of reaction conditions and components of polymerase chain reaction performed during library preparation.</em></p>
 <p>URI: <a href="https://w3id.org/mixs/0000049">MIXS:0000049</a></p>
 <!-- no inheritance hierarchy -->
 
@@ -432,6 +432,9 @@
 <tr>
 <td>initial denaturation:94_3;annealing:50_1;elongation:72_1.5;final elongation:72_10;35</td>
 </tr>
+<tr>
+<td>initial denaturation:94degC_1.5min</td>
+</tr>
 </tbody>
 </table>
 <h3 id="annotations">Annotations</h3>
@@ -447,11 +450,12 @@ annotations:
     tag: Expected_value
     value: initial denaturation:degrees_minutes;annealing:degrees_minutes;elongation:degrees_minutes;final
       elongation:degrees_minutes;total cycles
-description: Description of reaction conditions and components of PCR in the form
-  of 'initial denaturation:94degC_1.5min; annealing=...'
+description: Description of reaction conditions and components of polymerase chain
+  reaction performed during library preparation.
 title: pcr conditions
 examples:
 - value: initial denaturation:94_3;annealing:50_1;elongation:72_1.5;final elongation:72_10;35
+- value: initial denaturation:94degC_1.5min
 in_subset:
 - sequencing
 from_schema: https://w3id.org/mixs
